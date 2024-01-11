@@ -1,0 +1,1045 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.myNav {
+    background: #84A278;
+}
+
+.logoNav {
+    width: 30%;
+}
+
+.collapse a {
+    font-style: normal;
+    color: white !important;
+    margin: 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.collapse a:hover {
+    color: #F8D24E !important;
+}
+
+.buyBtn {
+    background: #F8D24E !important;
+    border-radius: 10px;
+    padding: 8px 55px !important;
+    font-style: normal;
+    font-weight: 600;
+    color: black;
+    transition: padding 1.2s !important;
+}
+
+.buyBtn:hover {
+    background: white !important;
+    border: 1px solid #F8D24E !important;
+    padding: 8px 85px !important;
+}
+
+/* home */
+.home {
+    background: #84A278;
+    height: 658px !important;
+}
+
+.h1Ice {
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #FCFCFC;
+    width: 50%;
+}
+
+.btnPro {
+    color: white !important;
+    border: 2px solid #F8D24E !important;
+    padding: 5px 35px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.btnPro:hover {
+    background: white !important;
+    color: black !important;
+    transition: all 1s ease;
+    padding: 10px 25px;
+}
+
+.madeText {
+    margin: 20px;
+    color: #F8D24E;
+    text-decoration: underline;
+}
+
+.iceImg1 {
+    position: relative;
+    top: 55px;
+    left: 0px;
+    width: 40%;
+}
+
+.iceText p {
+    color: white;
+    font-size: 20px;
+    position: relative;
+    top: -20%;
+    width: 40%;
+    left: 44%;
+}
+
+.iceImg2 {
+    width: 100%;
+}
+
+.h1Ice,
+.btnPro,
+.madeText {
+    position: relative;
+    left: 20px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .home {
+        height: 565px !important;
+    }
+
+    .iceText p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    body {
+        width: 100% !important;
+    }
+
+    .home {
+        height: 471px !important;
+    }
+
+    .h1Ice {
+        font-weight: normal;
+        font-size: 25px;
+    }
+
+    .logoNav {
+        width: 20%;
+    }
+
+    .btnPro,
+    .madeText {
+        font-size: 13px;
+    }
+
+    .iceText .arrow {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media only screen and (max-width: 991.5px) {
+    .home {
+        height: 434px !important;
+    }
+
+    .iceText p {
+        font-size: 11px;
+        left: 55%;
+        top: -100px;
+    }
+
+    .iceImg1 {
+        top: 30px;
+        width: 45%;
+    }
+
+    .iceImg2 {
+        position: relative;
+        top: 15.8% !important;
+    }
+
+    .iceText .arrow {
+        height: 25px;
+        width: 25px;
+    }
+
+    .navbar-toggler {
+        border: 2px solid white;
+    }
+}
+
+@media only screen and (max-width: 767.5px) {
+    .home {
+        height: 970.2px !important;
+    }
+
+    .iceImg2 {
+        position: relative;
+        top: -26.3% !important;
+    }
+
+    .iceText p {
+        position: relative;
+        top: -160px;
+        font-size: 15px;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .home {
+        height: 400px !important;
+    }
+
+    .iceImg1 {
+        width: 35%;
+    }
+
+    .iceText {
+        position: relative;
+        top: 50px;
+        left: -70px;
+    }
+
+    .iceImg2 {
+        display: none;
+    }
+
+    .iceText .arrow {
+        height: 25px;
+        width: 25px;
+    }
+}
+
+
+@media only screen and (max-width: 500px) {
+
+    .iceImg1 {
+        width: 30%;
+    }
+
+    .iceText p {
+        position: relative;
+        top: -120px;
+        font-size: 10px !important;
+    }
+
+    .iceText .arrow {
+        height: 18px;
+        width: 18px;
+    }
+}
+
+
+
+/* foneIcecont */
+.foneIce {
+    background-image: url("./Images/foneIce.png");
+    width: 100%;
+    height: 100%;
+    padding: 20%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.foneIcecont {
+    position: relative;
+    top: -150px;
+}
+
+.foneIcecont h3,
+h1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+}
+
+.proCard {
+    text-align: center;
+    background: #84A278;
+    border-radius: 20px;
+}
+
+.procard2 {
+    background: #EFD478;
+}
+
+.procard3 {
+    background: #D6936D;
+}
+
+.proImg {
+    width: 70%;
+    position: relative;
+    top: -80px;
+}
+
+.proCard h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 37px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    position: relative;
+    top: -30px;
+}
+
+.proCard p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 176%;
+    position: relative;
+    top: -10px;
+}
+
+.arrowsvg {
+    position: relative;
+    top: 60px;
+}
+
+.arrowsvg3 {
+    position: relative;
+    top: 30px;
+}
+
+
+@media only screen and (max-width: 1370px) {
+    .arrowsvg3 {
+        position: relative;
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1350px) {
+    .arrowsvg {
+        position: relative;
+        top: 30px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .proCard h3 {
+        font-size: 25px;
+    }
+
+    .proCard p {
+        font-size: 14px;
+    }
+
+    .arrowsvg {
+        top: 50px;
+    }
+
+    .arrowsvg3 {
+        top: 25px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .proCard p {
+        font-size: 12px;
+    }
+
+    .arrowsvg {
+        top: 20px;
+    }
+
+    .arrowsvg3 {
+        top: 0px;
+    }
+}
+
+@media only screen and (max-width: 1231.5px) {
+    .arrowsvg2 {
+        position: relative;
+        top: -20px;
+    }
+}
+
+@media only screen and (max-width: 1130.5px) {
+    .proCard h3 {
+        font-size: 22px;
+    }
+
+    .proCard p {
+        font-size: 11px;
+    }
+
+}
+
+@media only screen and (max-width: 1042px) {
+    .proCard h3 {
+        font-size: 18px;
+    }
+
+    .proCard p {
+        font-size: 10px;
+    }
+
+    .arrowsvg {
+        top: 40px;
+    }
+
+    .arrowsvg2 {
+        top: 0px;
+    }
+
+    .arrowsvg3 {
+        top: 15px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .foneIce .col-md-4 {
+        width: 100%;
+        margin-bottom: 150px;
+    }
+
+    .proImg {
+        width: 40%;
+    }
+
+    .textProCard {
+        position: relative;
+        top: -30px;
+    }
+
+    .proCard h3 {
+        font-size: 25px;
+    }
+
+    .proCard p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .foneIcecont {
+        margin-top: 80px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .foneIcecont {
+        margin-top: 120px;
+    }
+
+    .foneIcecont h1,
+    h3 {
+        font-size: 20px !important;
+    }
+
+    .proImg {
+        top: -40px;
+    }
+
+}
+
+/* made */
+
+
+.made {
+    background: #84A278;
+    height: 100%;
+}
+
+.made .container h3,
+h2 {
+    text-transform: uppercase;
+    color: white !important;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+}
+
+.made .textP p {
+    width: 80%;
+    color: white;
+    text-align: start;
+}
+
+.made .warning {
+    position: relative;
+    top: -50px;
+    left: 70px;
+    background: #F8D24E;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    color: #F8D24E;
+}
+
+.made .row {
+    position: relative;
+    top: -500px;
+}
+
+@media only screen and (max-width: 1400px) {
+    .made .warning {
+        left: 25px;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .made .cowImg {
+        width: 80%;
+    }
+
+    .made .row {
+        margin-top: 12%;
+    }
+
+    .made .textP {
+        position: relative;
+        top: -50px;
+        font-size: 15px;
+    }
+
+    .made .warning {
+        left: 38px;
+        width: 380px;
+        height: 380px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .made .cowImg {
+        width: 100%;
+    }
+
+    .made .row {
+        margin-top: 20%;
+    }
+
+    .made .textP {
+        font-size: 12px;
+    }
+
+    .made .warning {
+        left: -1px;
+        width: 340px;
+        height: 340px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .made .cowImg {
+        width: 80%;
+        justify-content: center;
+    }
+
+    .made .row {
+        margin-top: 10%;
+    }
+
+    .made .warning {
+        left: 47.5px;
+        width: 420px;
+        height: 420px;
+    }
+
+    .made .textP {
+        position: relative;
+        left: 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .made .warning {
+        left: 55px;
+        width: 400px;
+        height: 400px;
+        top: -80px;
+    }
+
+    .made .textP {
+        left: 50px;
+        width: 90%;
+    }
+}
+
+
+@media only screen and (max-width: 576px) {
+    .made .cowImg {
+        width: 50%;
+
+    }
+
+    .made .row {
+        margin-top: 40%;
+    }
+
+    .made .warning {
+        left: 128px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .made .textP {
+        font-size: 10px;
+        left: 38px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .made .ImgRow {
+        transition: padding linear 1.5s;
+    }
+
+    .made .ImgRow:hover {
+        padding: 20px;
+    }
+
+    .made .cowImg {
+        padding: 5px;
+        border: 2px solid #F8D24E;
+        border-radius: 50%;
+    }
+
+    .made .warning {
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 400px) {
+    .made .row {
+        top: -120px;
+    }
+
+    .made .cowImg {
+        padding: 5px;
+        border: 2px solid #F8D24E;
+        border-radius: 50%;
+    }
+
+    .made .warning {
+        display: none;
+    }
+
+    .made .textP {
+        left: 10px;
+    }
+}
+
+.iconRow {
+    margin-top: 10% !important;
+}
+
+.iconRow h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.iconRow p {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.iconRow img {
+    width: 15%;
+}
+
+.madeImg {
+    position: relative;
+    bottom: 300px !important;
+    width: 100%;
+}
+
+@media only screen and (max-width: 401px) {
+    .madeImg {
+        bottom: 150px !important;
+    }
+}
+
+.hel {
+    background-image: url("./Images/foneIce.png");
+    width: 100%;
+    height: 100%;
+    padding: 25%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: -38%;
+
+}
+
+.carousel-item p {
+    background-color: #84A278;
+    border-radius: 20px;
+    padding: 30px;
+    color: white;
+}
+
+.clientImg {
+    margin: 0 auto;
+    width: 10%;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .clientImg {
+        width: 20%;
+    }
+}
+
+/* footer */
+.footer {
+    background: #84A278;
+    padding: 120px;
+}
+
+.footer .card {
+    border-radius: 20px;
+    position: relative;
+    top: -180px;
+}
+
+.warning {
+    background-color: #F8D24E;
+    width: auto;
+    width: 30%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.footerRow {
+    margin-top: -100%;
+}
+
+.footer .time {
+    opacity: 0.5;
+}
+
+.franchise {
+    background: #84A278 !important;
+    border: 2px solid #F8D24E !important;
+}
+
+.footer h3,
+h1 {
+    text-align: start !important;
+    text-transform: uppercase;
+    color: white;
+    font-size: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+}
+
+.footer h1 {
+    font-size: 50px;
+}
+
+.footer .myhr {
+    color: rgba(255, 255, 255, 0.807);
+}
+
+
+@media only screen and (max-width: 1425px) {
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 1425px) {
+    .footer p {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 1306px) {
+    .footer p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 1246px) {
+    .footer .col-md-4 {
+        width: 50%;
+    }
+
+    .footer .col-md-4:last-child {
+        margin: 30px auto;
+    }
+
+    .footer .footerRow {
+        margin-top: -100px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .footer .col-md-4 {
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    .footer p {
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .footer .col-md-4 {
+        width: 80%;
+        margin: 30px auto;
+    }
+
+    .footer p {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .col-md-4 {
+        width: 90%;
+        margin: 30px auto;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .col-md-4 {
+        margin: 60px auto;
+    }
+
+    .footer p {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .footer .col-md-4 {
+        position: relative;
+        left: -50px;
+    }
+
+    .footer .card {
+        width: 150%;
+    }
+
+}
+
+@media only screen and (max-width: 430px) {
+    .footer .col-md-4 {
+        position: relative;
+        left: -55px;
+    }
+
+    .footer .card {
+        width: 200%;
+    }
+
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+    .footer .passionRow .col-md-7,
+    .col-md-5 {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .footer .passionRow h3,
+    h1 {
+        text-align: center !important;
+    }
+
+    .footer .firstSvg {
+        position: relative;
+        left: 80px;
+    }
+}
+
+@media only screen and (max-width: 1019px) {
+    .footer .firstSvg {
+        position: relative;
+        left: 60px;
+    }
+
+    .footer .contactNum {
+        position: relative;
+        left: 25px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+
+    .passionRow h3,
+    h1 {
+        font-size: 20px !important;
+    }
+
+    .firstSvg svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .contactNum {
+        font-size: 12px !important;
+    }
+}
+
+@media only screen and (max-width: 839px) {
+    .footer .firstSvg {
+        left: 35px;
+    }
+
+    .contactNum {
+        left: 45px !important;
+    }
+
+    .contactNum strong {
+        position: relative;
+        top: 0;
+        left: 5px;
+    }
+
+    .contactNum span {
+        position: relative;
+        top: 20px;
+        left: -105px;
+    }
+
+    .myhr {
+        position: relative;
+        top: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 797px) {
+    .footer .firstSvg {
+        position: relative;
+        left: 30px;
+    }
+
+    .contactNum strong {
+        position: relative;
+        top: 0;
+        left: 0px;
+    }
+
+    .contactNum span {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .footer .col-md-5 {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .footer .firstSvg {
+        left: 0;
+    }
+}
+
+
+
+@media only screen and (max-width: 495px) {
+    .hellll {
+        font-size: 15px !important;
+    }
+
+    .hellll {
+        font-size: 15px !important;
+    }
+
+    .hellll,
+    .hellll {
+        padding: 10px 30px !important;
+        font-size: 15px !important;
+    }
+
+    .hellll:hover,
+    .hellll:hover {
+        padding: 20px !important;
+    }
+}
+
+@media only screen and (max-width: 457px) {
+    .hellll {
+        padding: 10px 25px !important;
+        font-size: 12px !important;
+    }
+
+    .hellll:hover {
+        padding: 11px 25px;
+    }
+
+    .svgNav {
+        width: 12px !important;
+        height: 9px !important;
+    }
+
+    .contactNum {
+        left: 0px !important;
+    }
+
+    .contactNum span {
+        display: inline-flex;
+        left: 0px;
+        top: 0;
+    }
+
+    .passionRow h3,
+    h1 {
+        font-size: 12px !important;
+    }
+
+    .firstSvg .svgIcons {
+        width: 23px;
+        height: 23px;
+    }
+}
+
+@media only screen and (max-width: 416px) {
+    .hellll {
+        font-size: 10px !important;
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 397px) {
+    .firstSvg .svgIcons:last-child {
+        position: relative;
+        top: -20px;
+        left: 7px;
+    }
+
+    .contactNum {
+        top: -20px;
+    }
+
+    .hellll {
+        padding: 8px !important;
+    }
+
+    .hellll:hover {
+        padding: 12px !important;
+        transition: 1s ease;
+    }
+}
